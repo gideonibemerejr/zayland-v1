@@ -1,4 +1,4 @@
-const useApiUrl = (location) => {
+const getApiUrl = (location) => {
 	let API_URL;
 
 	if (location && location.hostname.indexOf("localhost") > -1) {
@@ -7,7 +7,7 @@ const useApiUrl = (location) => {
 		API_URL = "https://zayland-api.herokuapp.com";
 	}
 
-	return { API_URL };
+	return API_URL;
 };
 
-export default useApiUrl;
+export default getApiUrl;

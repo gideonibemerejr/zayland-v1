@@ -1,8 +1,8 @@
 import tokenService from "./tokenService";
 import axios from "axios";
-import useApiUrl from "./useApiUrl";
+import getApiUrl from "./useApiUrl";
 
-const { API_URL } = useApiUrl(window.location);
+const { API_URL } = getApiUrl(window.location);
 
 function signup(user) {
 	return axios.post(`${API_URL}/auth/local/register`, user).then((res) => {
