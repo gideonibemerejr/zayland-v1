@@ -49,6 +49,26 @@ export function getAlbums() {
 	];
 }
 
+export function getCaseClosed() {
+	return [
+		{
+			link: "https://open.spotify.com/album/27wvgRfSLCcrIDIFxgtVNZ?si=Bv_RsVDpT86HrM-TbUYWtg",
+			title: "Spotify",
+			iconSrc: spotify,
+		},
+		{
+			link: "https://tidal.com/browse/album/226743078",
+			title: "Tidal",
+			iconSrc: tidal,
+		},
+		{
+			link: "https://music.apple.com/us/album/case-closed-single/1621562486",
+			title: "Apple Music",
+			iconSrc: appleMusic,
+		},
+	];
+}
+
 export function getSayItToMyFace() {
 	return [
 		{

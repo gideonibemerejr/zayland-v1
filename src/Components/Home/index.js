@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import { getSayItToMyFace } from "../../data";
+import { getCaseClosed } from "../../data";
 // import { Play, Pause, Download, LoginForm } from "../";
 
 // import useAudio from "../../utils/useAudio";
 // import { demoTrackURL } from "../../data";
 // import moment from "moment";
 // import momentDurationFormatSetup from "moment-duration-format";
-const platforms = getSayItToMyFace();
+const platforms = getCaseClosed();
 const Home = ({ setCurrentPage, history, user, setUser }) => {
 	useEffect(() => {
 		setCurrentPage("HOME");
@@ -17,7 +17,7 @@ const Home = ({ setCurrentPage, history, user, setUser }) => {
 			<section className="w-100 flex flex-column  justify-center items-center mh5-l pa2 pa0-ns">
 				<div className="w-100 w-75-l h-75 mb2 flex justify-center items-center">
 					<img
-						src="https://zayland-uploads.s3.amazonaws.com/say-it-to-my-face.png"
+						src="https://zayland-uploads.s3.amazonaws.com/case-closed.png"
 						alt=""
 						className="w-50-ns w-100"
 					/>
