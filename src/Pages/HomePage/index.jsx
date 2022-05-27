@@ -55,7 +55,7 @@ class HomePage extends Component {
 				{/* {this.state.isMenuOpen && this.renderMenu()} */}
 
 				<div
-					className={`homepage--container bg-wish-we-had-a-chance
+					className={`homepage--container bg-black
            pa2 flex flex-column items-center w-100`}
 				>
 					<Nav toggleMenu={this.toggleMenu} user={this.state.user} />
@@ -86,10 +86,10 @@ class HomePage extends Component {
               path='/credits'
               render={() => <Credits setCurrentPage={this.setCurrentPage} />}
             /> */}
-						<Route
+						{/* <Route
 							path="/watch"
 							render={() => <Watch setCurrentPage={this.setCurrentPage} />}
-						/>
+						/> */}
 
 						<Redirect to="/" />
 					</Switch>

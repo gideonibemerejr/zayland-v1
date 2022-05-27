@@ -3,6 +3,7 @@ import spotify from "../assets/images/spotify.png";
 import tidal from "../assets/images/tidal.svg";
 import googlePlay from "../assets/images/googlePlay.png";
 import soundcloud from "../assets/images/soundcloud.png";
+import youtube from "../assets/images/youtube-logo.png";
 import fuck from "../assets/images/songTitles/fuck.png";
 import blue from "../assets/images/songTitles/blue.png";
 import what from "../assets/images/songTitles/what.png";
@@ -65,6 +66,11 @@ export function getCaseClosed() {
 			link: "https://music.apple.com/us/album/case-closed-single/1621562486",
 			title: "Apple Music",
 			iconSrc: appleMusic,
+		},
+		{
+			link: "https://www.youtube.com/watch?v=3TkMae4UGuk",
+			title: "Youtube",
+			iconSrc: youtube,
 		},
 	];
 }
