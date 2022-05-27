@@ -53,7 +53,7 @@ const Nav = ({ toggleMenu, user }) => {
           CREDITS
         </Link> */}
 				<Link
-					className="link dim red f5 f4-l fw7 dib mr3 mr4-l"
+					className="link dim red f5 f4-l fw7 dib"
 					to="/watch"
 					title="Watch"
 				>
