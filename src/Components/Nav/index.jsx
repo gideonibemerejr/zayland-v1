@@ -52,13 +52,13 @@ const Nav = ({ toggleMenu, user }) => {
         >
           CREDITS
         </Link> */}
-				{/* <Link
-          className='link dim pink f6 f5-l fw5 dib mr3 mr4-l'
-          to='/watch'
-          title='Watch'
-        >
-          WATCH
-        </Link> */}
+				<Link
+					className="link dim red f5 f4-l fw7 dib mr3 mr4-l"
+					to="/watch"
+					title="Watch"
+				>
+					WATCH
+				</Link>
 				{/* <a
           className='pointer link dim yellow f6 f5-l fw5 dib '
           href='https://shop.zaylandxx.com'

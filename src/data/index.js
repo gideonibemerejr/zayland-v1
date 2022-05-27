@@ -395,9 +395,13 @@ export function getGetAwayPlatforms() {
 
 export function getVideos() {
 	return [
+		// {
+		// 	url: "https://www.youtube.com/watch?v=pJ-YHjig9oU&feature=youtu.be",
+		// 	title: `'Get Away' - Zayland, Jay Wile, and Capshun (Lyric Video)`,
+		// },
 		{
-			url: "https://www.youtube.com/watch?v=pJ-YHjig9oU&feature=youtu.be",
-			title: `'Get Away' - Zayland, Jay Wile, and Capshun (Lyric Video)`,
+			url: "https://www.youtube.com/watch?v=3TkMae4UGuk",
+			title: `Case Closed (Official Video)`,
 		},
 	];
 }
